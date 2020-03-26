@@ -20,6 +20,8 @@ body {
 
 .reviewContent {
   color:black; 
+  width:85%;
+  margin-left: 0px;
 }
 
 #reviews {
@@ -34,8 +36,14 @@ p {
     color: black;
 }
 
-h2, h3 {
+h2 {
     font-weight: 650;
+    margin-left: 0px;
+}
+
+h3 {
+  font-weight: 650;
+  margin-left: 0px;
 }
 
 .flex {
@@ -62,6 +70,9 @@ h2, h3 {
 
 .sidebar {
     padding: 0px 40px;
+    /* margin-right: 50px; */
+    padding-right: 150px;
+
 }
 
 .main {
@@ -117,6 +128,9 @@ h2, h3 {
 
 .tags {
     display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 0px;
 }
 
 .tag {
@@ -127,6 +141,7 @@ h2, h3 {
     margin-right: 7px;
     text-align: center;
     flex-wrap: wrap;
+    margin-left: 0px;
 }
 
 .thank-you {
@@ -261,6 +276,7 @@ h2, h3 {
     list-style-type: none;
     color:rgb(129, 151, 164);
     background-color: #0f171e;
+    margin-left: 40px;
     font-family:"Amazon Ember Regular", Arial, sans-serif;
     font-size:17px;
     font-weight:700;
@@ -282,6 +298,7 @@ h2, h3 {
     font-size:17px;
     height:auto;
     line-height:25px;
+    margin-left: 60px;
     text-size-adjust:100%;
     white-space: normal;
     width:auto;
@@ -308,13 +325,16 @@ h2, h3 {
   /*DVD BUTTON AND HOVER STYLING*/
   #button1 {
     margin-left: 40px;
-    display: inline-block;
+    margin-top: 20px;
+    /* height: 64px; */
+    /* display: inline-block; */
     background-color: #c4cacf;
     border-radius: 5px;
     text-align: center;
     font-size: 15px;
-    padding: 10px;
+    padding-bottom: 14px;
     width: 100px; 
+    color: black;
   }
   #button1 span {
     cursor: pointer;
@@ -349,9 +369,10 @@ h2, h3 {
     text-align: center;
     border-radius: 5px;
     font-size: 15px;
-    padding: 10px;
+    /* padding: 20px; */
     width: 100px;
     margin-left: 10px; 
+    color: black;
   }
   #button2 span {
     cursor: pointer;
@@ -381,7 +402,11 @@ h2, h3 {
   
     /***************** Header CSS **********************/
     .text {
-      color:white;
+     color:white;
+     line-height: 1.5;
+     text-rendering:optimizelegibility;
+    -webkit-font-smoothing:antialiased;
+    margin-left: 40px;
     }
 
 
@@ -397,20 +422,29 @@ h2, h3 {
     
     h1 {
       color: #FFFFFF;
-      font-size: 30px
-      
+      font-size: 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-left:40px;
     }
     
-    
+    #simple {
+      margin-left: 40px;
+      padding-top: 10px;
+    }
+
+
     h2,
     p {
-      /* color: #FFFFFF; */
+      color:rgb(129, 151, 164);
       font-size: 17px ;
       /* background-color: #0f171e; */
+      margin-left: 40px;
+      padding-bottom: 10px;
     }
     
     h3 {
-      margin: 0px 0px 0px 0px;
+      margin-left: 40px;
       color: #8197A4;
       /* background-color: #0f171e; */
     }
@@ -443,20 +477,21 @@ h2, h3 {
       display: flex;
       width: 50px;
       height: auto;
-      color:white;
+     color:rgb(129, 151, 164);
     }
     
     .ratings {
       display: flex;
       align-items: center;
+      margin-left: 40px;
     }
     
     .flexRow {
       display: flex;
       flex-direction: row;
       align-items: center;
-      margin: 0px;
-      padding: 0px;
+      margin-left: 40px;
+      padding-bottom: 10px;
     }
     
     .otherinfo {
@@ -465,26 +500,39 @@ h2, h3 {
       padding: 0px;
       margin: 0px;
     }
+    .description {
+      width: 60%;
+      border: none;
+      padding-bottom: 20px;
+    }
     
     .extra {
       font-weight: normal;
       color: #79B7F3;
-      padding: 0px 0px 0px 20px;
+      /* padding-left: 27px; */
       font-size: 17px;
     }
+
+    .extra1 {
+      font-weight: normal;
+      color: #79B7F3;
+      padding-left: 10px;
+      font-size: 17px;
+    }
+
     
     .marginLeft {
-      margin-left: 8px;
+      margin-left: 40px;
      
     }
 
     .duration {
       margin-left: 8px;
-     color: white;
+      color:rgb(129, 151, 164);
     }
     
     .noMargin {
-      margin: 0px;
+      margin: 40px;
     }
     
     .poster {
@@ -510,7 +558,8 @@ h2, h3 {
     
     .subtext {
       padding: 0px;
-      color:white;
+      color:rgb(129, 151, 164);
+      margin-left: 40px;
     }
     
     #header {
@@ -546,6 +595,7 @@ h2, h3 {
     
     .watchNow {
       background: #00a0d6;
+      margin-left: 40px;
     }
     
     
