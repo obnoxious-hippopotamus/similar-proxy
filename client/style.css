@@ -3,6 +3,11 @@
 /**************************** Reviews CSS *******************************************/
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
 
+
+body {
+  background-color: #0f171e;
+}
+
 .spacing {
   height: 500px; 
   width: 100%;
@@ -14,13 +19,19 @@
 }
 
 .reviewContent {
-  font:black; 
+  color:black; 
 }
 
+#reviews {
+  background-color: white;
+  padding-top: 10px;
+  color: black;
+  width: 100%;
+}
 
 p {
     font-size: 13px;
-    font: black;
+    color: black;
 }
 
 h2, h3 {
@@ -57,12 +68,12 @@ h2, h3 {
     padding-left: 15px; 
     padding-right: 100px;
     /* background-color: white; */
-    font:black;
+    color:black;
 }
 
 .reviewItem {
     padding-top: 20px;
-    font: black;
+    color: black;
 
 }
 
@@ -150,9 +161,11 @@ h2, h3 {
     font-size: 21px;
     line-height: 24px;
     color: #fff;
+    background-color: #0f171e;
     text-rendering:optimizelegibility;
     -webkit-font-smoothing:antialiased;
     padding-left: 40px;
+    padding-top: 25px;
   }
   
   
@@ -181,10 +194,11 @@ h2, h3 {
   
   /*ELEMENT TO RENDER EACH MOVIE POSTER DYNAMICALLY*/
   .eachMovie {
-    flex-basis: 10%;
+    /* flex-basis: %; */
     margin: 5px;
     /* overflow-x: hidden; */
       /* overflow-y: hidden; */
+      padding: none;
    
     white-space: nowrap;
     /* user-select: none; */
@@ -193,12 +207,14 @@ h2, h3 {
     list-style: none;
   
     /* cursor: pointer; */
-    box-shadow: 0 10px 28px -7px rgba(0,0,0,0.1);
+    /* box-shadow: 0 10px 28px -7px rgba(0,0,0,0.1); */
   }
   
   
   .moviePoster {
     width: auto;
+    padding: 0px;
+    padding-left: 0px;
     /* margin-left: 5px;
     margin-bottom: 5px; */
     /* display: flex; */
@@ -214,7 +230,7 @@ h2, h3 {
     background-color:#0f171e;
     grid-column: 2/4;
     border: white solid 1px;
-    color: white;
+    /* color: white; */
   }
   /*INNER DIV FOR DESCRIPTIONS TITLE, MAY STREAMLINE WITH UNIVERSAL HEADER CLASS*/
   .moreDetailsHeader {
@@ -236,7 +252,7 @@ h2, h3 {
   .details {
     background-color: #0f171e;
     border: white solid 1px;
-    color: #fff;
+    /* color: #fff; */
     padding-right: 10px;
   }
   
@@ -244,6 +260,7 @@ h2, h3 {
   .detailsProperties {
     list-style-type: none;
     color:rgb(129, 151, 164);
+    background-color: #0f171e;
     font-family:"Amazon Ember Regular", Arial, sans-serif;
     font-size:17px;
     font-weight:700;
@@ -259,6 +276,7 @@ h2, h3 {
   /*INNDER DIV OF VALUES*/
   .detailsValues {
     list-style-type: none;
+    background-color: #0f171e;
     color:rgb(129, 151, 164);
     font-family:"Amazon Ember Regular", Arial, sans-serif;
     font-size:17px;
@@ -362,35 +380,44 @@ h2, h3 {
   
   
     /***************** Header CSS **********************/
+    .text {
+      color:white;
+    }
+
+
 
     * {
       font-family: ‘Noto Sans JP’, sans-serif;
+      /* background-color: #0f171e; */
     }
     
     body {
-      background-color: #0f171e;
       padding-left: 50px;
     }
     
     h1 {
       color: #FFFFFF;
       font-size: 30px
+      
     }
     
     
     h2,
     p {
-      color: #FFFFFF;
+      /* color: #FFFFFF; */
       font-size: 17px ;
+      /* background-color: #0f171e; */
     }
     
     h3 {
       margin: 0px 0px 0px 0px;
       color: #8197A4;
+      /* background-color: #0f171e; */
     }
     
     div {
       margin: 0px;
+      /* background-color: #0f171e; */
     }
     
     img {
@@ -416,6 +443,7 @@ h2, h3 {
       display: flex;
       width: 50px;
       height: auto;
+      color:white;
     }
     
     .ratings {
@@ -447,6 +475,12 @@ h2, h3 {
     
     .marginLeft {
       margin-left: 8px;
+     
+    }
+
+    .duration {
+      margin-left: 8px;
+     color: white;
     }
     
     .noMargin {
@@ -455,8 +489,8 @@ h2, h3 {
     
     .poster {
       display: flex;
-      height: 300px;
-      width: 200px;
+      height: 400px;
+      width: 300px;
       float: right;
       /* margin-bottom: 50px */
     }
@@ -464,8 +498,10 @@ h2, h3 {
     .container {
       margin: 0px;
       background: linear-gradient(to top right, rgba(15, 23, 30, 1) 25%, rgba(255,0,0,0));
+      background-color: #0f171e;
       background-repeat: no-repeat;
       background-position: right;
+      color:white;
     }
     
     .top {
@@ -474,11 +510,13 @@ h2, h3 {
     
     .subtext {
       padding: 0px;
+      color:white;
     }
     
-    .header {
+    #header {
       display: flex;
       flex-flow: row;
+      /* height: 600px; */
     }
     
     .drop {
