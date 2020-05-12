@@ -1,6 +1,6 @@
 # Amacon Prime Proxy Server
 
-**under construction**
+**readme under construction**
 
 This is proxy server code that renders three micro services as a single web page to create an imitation of an Amazon Prime video landing page.  The three services render the title feature, movies related to the title, and reviews about the title film.     
 
