@@ -11,15 +11,12 @@ Clone a copy of this GitHub repository to your local machine.  ```cd``` into the
 ### Prerequisites
 This application uses MySQL as a database management system.  Be sure to have MySQL server installed and running on your local machine.  Execute the ```schema.sql``` file in each microservice to create the appropriate database structure
 
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+There are three seperate ```package.json``` files for each micro service.  ```cd``` into each service's root directory and execute the following commands for each service to install dependencies and get each service up and running.   
 
-Say what the step will be
+cd into root directory of ```similar service```
 
 ```
 Give the example
