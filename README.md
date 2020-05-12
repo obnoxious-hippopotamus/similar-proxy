@@ -1,16 +1,15 @@
 # Amacon Prime Proxy Server
 
-This is proxy server code that renders three micro services in order to render an imitation of an Amazon Prime video landing page.  The three services render the title feature, movies related to the title, and reviews about the parent film.     
+This is proxy server code that renders three micro services as a single web page to create an imitation of an Amazon Prime video landing page.  The three services render the title feature, movies related to the title, and reviews about the title film.     
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.  
 
-Clone a copy of this GitHub repository to your local machine.  ```CD``` into the root directory of the project and execute the commands below.   
+Clone a copy of this GitHub repository to your local machine.  ```CD``` into the root directory of the project and execute the following commands in the terminal.   
 
 ### Prerequisites
-
-What things you need to install the software and how to install them
+This application uses MySQL as a database management system.  Be sure to have MySQL server installed and running on your local machine.  Execute the ```schema.sql``` file in each microservice to create the appropriate databse structure
 
 ```
 Give examples
